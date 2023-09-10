@@ -1,2 +1,12 @@
-TestCases\HomePage.class
-TestCases\Services.class
+TestCases\RegressionTestingTest.class
+POM\ServicesPOM.class
+TestCases\HomePageTest.class
+TestCases\BlogTest.class
+TestCases\CasesTest.class
+POM\CasesPOM.class
+POM\BlogPOM.class
+POM\CareersPOM.class
+POM\RegressionTestingPOM.class
+TestCases\CareersTest.class
+POM\HomePagePOM.class
+TestCases\ServicesTest.class
