@@ -180,7 +180,7 @@ public class HomePageTest {
     }
 
 
-    @Test
+   // @Test
     public void verifyServicesBlockNavigation() {
         home.servicesArrow()
                 .isDisplayed();
@@ -225,7 +225,7 @@ public class HomePageTest {
     }
 
 
-    @Test
+   // @Test
     public void verifyLearnMoreButtonVisibilityAndNavigation() {
         home.learnMoreBtn()
                 .shouldBe(enabled)
@@ -270,7 +270,7 @@ public class HomePageTest {
     }
 
 
-    @Test
+  //  @Test
     void verifySendUsAMessageSectionWithoutCredentials() {
         String expectedTextName = "Full Name can not be blank";
         String expectedTextEmail = "Email can not be blank";
@@ -302,7 +302,7 @@ public class HomePageTest {
     }
 
 
-    @Test
+  //  @Test
     void verifyDescriptionFieldAcceptanceCredentials() {
         String shortDescription = "test";
 

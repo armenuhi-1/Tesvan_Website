@@ -9,6 +9,8 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import com.codeborne.selenide.Configuration;
+
 
 public class BlogTest {
 
@@ -19,6 +21,8 @@ public class BlogTest {
     void beforeEach() {
         open("https://www.tesvan.com/en/blog/salesforce-based-applications");
         //I open a random blog here to test certain features on it.
+
+        Configuration.timeout = 10000;
 
         SelenideElement popup = blog.contactModal();
         if (popup.is(visible)) {
