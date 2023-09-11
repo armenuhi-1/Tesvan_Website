@@ -28,11 +28,11 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.32</version> <!-- Use a suitable version -->
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>ch.qos.logback</groupId>-->
-        <!--            <artifactId>logback-classic</artifactId>-->
-        <!--            <version>1.2.6</version> &lt;!&ndash; Use a suitable version &ndash;&gt;-->
-        <!--        </dependency>-->
+                <dependency>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                    <version>1.2.6</version> <!-- Use a suitable version -->
+                </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
